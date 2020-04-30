@@ -17,67 +17,59 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="matup.png" translatesAutoresizingMaskIntoConstraints="NO" id="HzO-oq-HAO">
-                                <rect key="frame" x="63" y="57" width="71" height="142"/>
+                                <rect key="frame" x="63" y="99" width="71" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="matup.png" translatesAutoresizingMaskIntoConstraints="NO" id="jvm-Bp-GSu">
-                                <rect key="frame" x="172" y="57" width="71" height="142"/>
+                                <rect key="frame" x="172" y="99" width="71" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="matup.png" translatesAutoresizingMaskIntoConstraints="NO" id="qhA-pz-pEt">
-                                <rect key="frame" x="282" y="57" width="71" height="142"/>
+                                <rect key="frame" x="282" y="99" width="71" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="matup.png" translatesAutoresizingMaskIntoConstraints="NO" id="AYT-or-8yX">
-                                <rect key="frame" x="62" y="494" width="71" height="142"/>
+                                <rect key="frame" x="62" y="490" width="71" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="matup.png" translatesAutoresizingMaskIntoConstraints="NO" id="Evu-bo-Z0T">
-                                <rect key="frame" x="171" y="494" width="71" height="142"/>
+                                <rect key="frame" x="171" y="490" width="71" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="matup.png" translatesAutoresizingMaskIntoConstraints="NO" id="NbQ-38-QuW">
-                                <rect key="frame" x="281" y="494" width="71" height="142"/>
+                                <rect key="frame" x="281" y="490" width="71" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIv-91-1Xm">
-                                <rect key="frame" x="167" y="225" width="45" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="RutBai"/>
-                                <connections>
-                                    <action selector="Rutbai:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CSx-pl-Cj7"/>
-                                </connections>
-                            </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uST-GQ-A7G">
-                                <rect key="frame" x="82" y="312" width="49" height="31"/>
+                                <rect key="frame" x="72" y="343" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="Reset:" destination="BYZ-38-t0r" eventType="valueChanged" id="XwM-1f-5Se"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reset" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNM-Da-LFr">
-                                <rect key="frame" x="13" y="312" width="44" height="21"/>
+                                <rect key="frame" x="13" y="344" width="44" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player cu Tí" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lun-v9-9L6">
-                                <rect key="frame" x="13" y="196" width="381" height="21"/>
+                                <rect key="frame" x="13" y="259" width="381" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player cu Tèo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ap-eH-N3F">
-                                <rect key="frame" x="13" y="420" width="381" height="21"/>
+                                <rect key="frame" x="13" y="442" width="381" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmM-qL-WHm">
-                                <rect key="frame" x="167" y="307" width="55" height="30"/>
+                                <rect key="frame" x="143" y="326" width="153" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Kết Quả"/>
                                 <connections>
@@ -85,11 +77,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rmc-gU-RMj">
-                                <rect key="frame" x="172" y="449" width="44" height="30"/>
+                                <rect key="frame" x="149" y="631" width="111" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Rutbai"/>
                                 <connections>
                                     <action selector="Rutbai2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hj9-39-hKX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIv-91-1Xm">
+                                <rect key="frame" x="142" y="42" width="118" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="RutBai"/>
+                                <connections>
+                                    <action selector="Rutbai:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CSx-pl-Cj7"/>
                                 </connections>
                             </button>
                         </subviews>
